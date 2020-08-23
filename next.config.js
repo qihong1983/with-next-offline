@@ -1,4 +1,3 @@
-const withOffline = require('next-offline')
 
 // module.exports = withOffline({
 //   workboxOpts: {
@@ -29,28 +28,7 @@ const withOffline = require('next-offline')
 // })
 
 
-const path = require('path')
 const withOffline = require('next-offline')
-
-const withSass = require('@zeit/next-sass');
-
-const withManifest = require('next-manifest')
-const isDev = process.env.NODE_ENV !== 'production'
-
-
-const config = {
-  distDir: 'build',
-  manifest: {
-    "name": "Nevek.co",
-    "short_name": "nevek.co",
-    "start_url": "/",
-    "display": "standalone",
-    "background_color": "#FFE066",
-    "theme_color": "#FFE066",
-    icons: false
-  }
-}
-
 
 module.exports = withOffline({
   workboxOpts: {
