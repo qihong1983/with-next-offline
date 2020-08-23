@@ -2,6 +2,7 @@
   "name": "next-offline",
   "short_name": "next-offline",
   "description": "Nextjs using service worker via next-offline",
+  "Scope": "/",
   "icons": [
     {
       "src": "/static/pwa.png",
